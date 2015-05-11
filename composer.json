@@ -1,0 +1,21 @@
+{
+  "name": "NT/drupal-composer-include",
+  "description": "A library to integrate PHPUnit with Drupal",
+    "keywords": ["testing", "phpunit", "drupal"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "John-Paul Drawneek",
+            "email": "jdrawneek@nationaltheatre.org.uk"
+        }
+    ],
+    "require": {
+        "php": 				">=5.3.3"
+    },
+    "autoload": {
+        "files": [
+            "../../../drupal/includes/bootstrap.inc",
+            "../../../drupal/includes/common.inc"
+        ]
+    }
+} 
