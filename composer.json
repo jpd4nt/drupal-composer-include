@@ -14,8 +14,8 @@
     },
     "autoload": {
         "files": [
-            "../../../drupal/includes/bootstrap.inc",
-            "../../../drupal/includes/common.inc"
+            "../../../../drupal/includes/bootstrap.inc",
+            "../../../../drupal/includes/common.inc"
         ]
     }
 } 
